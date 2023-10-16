@@ -1,6 +1,5 @@
 const names = ['Charlie', 'Samip', 'Ali'];
   const eventName = 'birthday';
-  const result = writeCards(names, eventName);
   console.log(result);
   
 function writeCards(names, eventName) {
@@ -14,10 +13,6 @@ function writeCards(names, eventName) {
   }
   
 function countDown(startingNumber) {
-  if (startingNumber < 0) {
-    console.log("Please provide a positive integer.");
-    return;
-  }
 
   while (startingNumber >= 0) {
     console.log(startingNumber);
@@ -25,7 +20,7 @@ function countDown(startingNumber) {
   }
 }
 
-countDown(10); // Call the function with any positive integer
+countDown(10);
 
 
   
